@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <title>Portafolio JD</title>
+</head>
+
+<body>
+    <!-- Menu Header -->
+
+    <div class="container-header">
+        <header>
+            <div class="logo">
+                <a href="#">JD</a>
+            </div>
+            <nav id="nav" class="responsive">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">Inicio</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">Sobre MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">Skills</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">Curriculum</a></li>
+                    <li><a href="#portafolio" onclick="seleccionar()">Ejercicios Dom</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+    <!-- Section Info -->
+    <section id="inicio" class="inicio">
+        <div class="container-banner">
+            <div class="container-img">
+                <img src="img/hero.png" alt="">
+            </div>
+            <h1>Jorge D. Devia</h1>
+            <h2>Aprendiz en Analisis y desarrollo de software</h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/profile.php?id=100091915781244" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://x.com/jorge2411o" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.instagram.com/jorged_2411/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="https://co.linkedin.com/in/jorge-devia-650a073b0" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+    </section>
+    <!-- Section Sobre Mi -->
+    <section id="sobremi" class="sobremi">
+        <div class="container-section">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy JD.</span>Soy aprendiz sena en etapa lectiva del progama analisis y desarrollo de
+                software</p>
+            <div class="fila">
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            24-11-2007
+                        </li>
+                        <li>
+                            <strong>Telefono</strong>
+                            +57 314 268 3134
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            daviddevia2411@gmail.com
+                        </li>
+                        <li>
+                            <strong>Direccion</strong>
+                            Garzón, Huila, Colombia
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            Estudiante
+                        </li>
+                    </ul>
+                </div>
+                <!-- Intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="container-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>juegos</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>Música</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-film"></i>
+                            <span>Películas</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>Libros</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>Fotografía</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-bicycle"></i>
+                            <span>Deportes</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>Viajar</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button>
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+    <!-- Section Skills -->
+    <section class="skills" id="skills">
+        <div class="container-section">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical skills -->
+                <div class="col">
+                    <h3>Technical skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="proceso javascript">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="proceso htmlcss">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Photoshop</span>
+                        <div class="barra-skill">
+                            <div class="proceso photoshop">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Wordpress</span>
+                        <div class="barra-skill">
+                            <div class="proceso wordpress">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>React</span>
+                        <div class="barra-skill">
+                            <div class="proceso react">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="proceso comunicacion">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en equipo</span>
+                        <div class="barra-skill">
+                            <div class="proceso equipo">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="proceso creatividad">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="proceso dedicacion">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proyect Management</span>
+                        <div class="barra-skill">
+                            <div class="proceso management">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="curriculum" id="curriculum">
+        <div class="container-section">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educacion</h3>
+                    <div class="item izq">
+                        <h4>Arte y Multimedia</h4>
+                        <span class="casa">Universidad de Oxford</span>
+                        <span class="fecha">2010 - 2014</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquiam, quae.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Arte y Multimedia</h4>
+                        <span class="casa">Universidad de Oxford</span>
+                        <span class="fecha">2010 - 2014</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquiam, quae.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Arte y Multimedia</h4>
+                        <span class="casa">Universidad de Oxford</span>
+                        <span class="fecha">2010 - 2014</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquiam, quae.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Frontend Developer</h4>
+                        <span class="casa">Nombre Compañia</span>
+                        <span class="fecha">2010 - 2014</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquiam, quae.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Frontend Developer</h4>
+                        <span class="casa">Nombre Compañia</span>
+                        <span class="fecha">2010 - 2014</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquiam, quae.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Frontend Developer</h4>
+                        <span class="casa">Nombre Compañia</span>
+                        <span class="fecha">2010 - 2014</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquiam, quae.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ejercicios Dom -->
+    <section class="portafolio" id="portafolio">
+        <div class="container-section">
+            <h2>Ejercicios Dom</h2>
+
+            <div class="galeria">
+                <a href="EjerciciosDom/bateria/index.html" target="_blank" rel="noopener noreferrer">
+                    <div class="proyecto">
+                        <img src="img2/Bateria.png" alt="">
+                        <div class="overlay">
+                            <h3>Bateria</h3>
+                            <p>Manejo Dom</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="EjerciciosDom/calculadora/index.html" target="_blank" rel="noopener noreferrer">
+                    <div class="proyecto">
+                        <img src="img2/Calculadora.png" alt="">
+                        <div class="overlay">
+                            <h3>Calculadora</h3>
+                            <p>Manejo Dom</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="EjerciciosDom/taller carro/index.html" target="_blank" rel="noopener noreferrer">
+                    <div class="proyecto">
+                        <img src="img2/CarroDom.png" alt="">
+                        <div class="overlay">
+                            <h3>Carro Dom</h3>
+                            <p>Manejo Dom</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="EjerciciosDom/carrusel/index3.html" target="_blank" rel="noopener noreferrer">
+                    <div class="proyecto">
+                        <img src="img2/Carrusel.png" alt="">
+                        <div class="overlay">
+                            <h3>Carrusel</h3>
+                            <p>Manejo Dom</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="EjerciciosDom/Cronometro/" target="_blank" rel="noopener noreferrer">
+                    <div class="proyecto">
+                        <img src="img2/Cronometro.png" alt="">
+                        <div class="overlay">
+                            <h3>Cronometro</h3>
+                            <p>Manejo Dom</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="EjerciciosDom/Cursor/index.html" target="_blank" rel="noopener noreferrer">
+                    <div class="proyecto">
+                        <img src="img2/Cursor.png" alt="">
+                        <div class="overlay">
+                            <h3>cursor</h3>
+                            <p>Manejo Dom</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="EjerciciosDom/Imagenes 3D/index.html" target="_blank" rel="noopener noreferrer">
+                    <div class="proyecto">
+                        <img src="img2/Imagen3D.png" alt="">
+                        <div class="overlay">
+                            <h3>Imagenes3D</h3>
+                            <p>Manejo Dom</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="EjerciciosDom/listado/index.html" target="_blank" rel="noopener noreferrer">
+                    <div class="proyecto">
+                        <img src="img2/Listado.png" alt="">
+                        <div class="overlay">
+                            <h3>Listado</h3>
+                            <p>Manejo Dom</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="EjerciciosDom/Mensaje/index.html" target="_blank" rel="noopener noreferrer">
+                    <div class="proyecto">
+                        <img src="img2/Mensaje.png" alt="">
+                        <div class="overlay">
+                            <h3>Mensaje</h3>
+                            <p>Manejo Dom</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section id="contacto" class="contacto">
+        <div class="container-section">
+            <h2>Contacto</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Tu nombre">
+                    <input type="text" placeholder="NUmero Telefonico">
+                    <input type="email" placeholder="Direccion de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje"></textarea>
+                    <button>Enviar <i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+
+                </div>
+                <div class="col">
+                    <img src="img/Ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Garzon, Huila, Colombia
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llamame: +57 3142683134
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: daviddevia2411@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.facebook.com/profile.php?id=100091915781244" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://x.com/jorge2411o" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://www.instagram.com/jorged_2411/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-square-instagram"></i></a>
+            <a href="https://co.linkedin.com/in/jorge-devia-650a073b0" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
